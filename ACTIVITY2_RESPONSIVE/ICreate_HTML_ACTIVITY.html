@@ -13,11 +13,14 @@
 </head>
 <body>
     <!--NAVIGATION BAR-->
-    <section class="navigation_bar">
+    <i class="fa-solid fa-bars" id="show" onclick="showMenu()"></i>
+    <section class="navigation_bar" id="navigation_bar">
         
         <div class="navbar">  
             <!--LOGO-->  
+            
             <div id="nav-logo">
+                <i class="fa-solid fa-xmark" id="hide"></i>
                 <img src="images/logo.png" id="logo" alt="logo">
             </div>
             <!--LINKS-->
@@ -32,7 +35,7 @@
             <div id="nav-fillup">
                 <form>
                     <div class="form-fill">
-                        <label for="log-in">Log-In: </label>
+                        <label for="log-in" id="login_label">Log-In: </label>
                         <input type="text" placeholder="username" class="textfield-fill">
                         <input type="password" placeholder="password" class="textfield-fill">
                         <button class="fillButton log-in-button"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
@@ -55,6 +58,7 @@
                 </div>   
             </div>
         </div>
+        
     </section>
     <!--FOOTER-->
     <section class="footer"> 
@@ -74,6 +78,6 @@
             </div>
         </div>
     </section>
-    
+    <script rel="index.js"> </script>
 </body>
 </html>
