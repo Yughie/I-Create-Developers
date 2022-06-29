@@ -1,8 +1,9 @@
-var navbar = getElementById("navigation_bar")
+var navbar = document.getElementById("navigation_bar");
+
 function showMenu(){
-    navbar = "0%";
+    navbar.style.right = "0%";
 }
 
 function hideMenu(){
-
+    navbar.style.right ="-50%"
 }

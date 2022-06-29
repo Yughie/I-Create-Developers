@@ -12,15 +12,17 @@
     <script src="https://kit.fontawesome.com/81d87d46a5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--NAVIGATION BAR-->
-    <i class="fa-solid fa-bars" id="show" onclick="showMenu()"></i>
+    <div class="hiddenContent">
+        <i class="fa-solid fa-bars" id="show" onclick="showMenu()"></i>
+        <img src="images/logo.png" id="hiddenLogo" alt="logo">
+    </div>
+    
+     <!--NAVIGATION BAR-->
     <section class="navigation_bar" id="navigation_bar">
-        
         <div class="navbar">  
             <!--LOGO-->  
-            
             <div id="nav-logo">
-                <i class="fa-solid fa-xmark" id="hide"></i>
+                <i class="fa-solid fa-xmark" id="hide" onclick="hideMenu()"></i>
                 <img src="images/logo.png" id="logo" alt="logo">
             </div>
             <!--LINKS-->
@@ -78,6 +80,6 @@
             </div>
         </div>
     </section>
-    <script rel="index.js"> </script>
+    <script src="index.js"> </script>
 </body>
 </html>
