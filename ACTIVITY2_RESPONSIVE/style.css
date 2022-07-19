@@ -295,9 +295,10 @@ input[type=password]:focus {
         background-color: rgba(5, 17, 56, 1);
         position: fixed;
         margin-left:50%;
-        right: 0%;
+        right: -50%;
         top: 0;
         height: 100%;
+        transition: 0.3s ease;
         
 
     }
@@ -321,12 +322,14 @@ input[type=password]:focus {
         position: relative;
         right:25%;
         top: 10px;
+       
     }
     #logo{
         width: 120px;
         height: 60px;
         padding-top: 20px;
         margin-left: -20px;
+       
     }
     #nav-links ul li{
         padding-top: 40px;
