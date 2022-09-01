@@ -10,6 +10,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
     
    
 }
@@ -25,6 +26,7 @@ a{
     color: whitesmoke;
     position: fixed;
     
+    
  
 }
 .navbar{
@@ -32,7 +34,7 @@ a{
     flex-direction: row;
     justify-content: space-around;
     padding-top: 15px;
-   
+    
     
 }
 
@@ -94,7 +96,7 @@ input[type=password]:focus {
     border-radius: 5px;
 }
 .log-in-button{
-    margin-left: 4px;
+    
     width: 60px;
     height: 25px;
 }
@@ -161,6 +163,7 @@ input[type=password]:focus {
 .frontButton:hover{
     transition: all 0.3 ease;
     color: white;
+    
 }
 .buttonBackground{
     display: inline-block;
@@ -232,6 +235,10 @@ input[type=password]:focus {
 }
 #nav-logo span{
     display: none;
+}
+.footer_button:hover{
+    box-shadow: 0px 0px 10px rgb(252, 165, 35);
+    background-color: rgb(252, 165, 35);
 }
 #hiddenLogo{
     width: 160px;
@@ -318,8 +325,8 @@ input[type=password]:focus {
         right: -50%;
         top: 0;
         height: 100%;
-        transition: 0.3s ease;
-        min-width: 260px;
+        transition: 0.4s ease;
+        
 
     }
     .navigation_bar:active{
@@ -364,27 +371,27 @@ input[type=password]:focus {
         margin: auto;
         text-align: center;
         margin-left: 0px;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
         padding-left: 0;
+
     }
     #login_label{
-        padding-left: 100px;
-        padding-right: 100px;
+        width: 95%;
+        margin: auto;
         padding-bottom: 10px;
         border-bottom: 2px solid orange;
         font-size: 30px;
+        display: block;
     }
     
     .textfield-fill{
         margin-top:30px;
-        margin-left: 10px;
         width: 40%;
         height: 40px;
         padding-left: 5px;
     }
    
     .log-in-button{
-        margin-left: 4px;
         width: 60px;
         height: 25px;
     }
@@ -434,18 +441,65 @@ input[type=password]:focus {
         margin-bottom: -150px;
        
     }
-    body{
-        min-width: 530px;
-    }
+   
     .front_container {
-        padding-top: 300px;
-    }
-    .frontButton{
-        margin-top: 150px;
+        padding-top: 280px;
     }
     .fillButton.sign-up-button{
         margin-left: 0;
     }
+
+    .buttonBackground{
+        
+        margin: 0;
+        margin-top: 150px;
+    }
+    
+    #hiddenLogo {
+        width: 110px;
+        height: 65px;
+    }
+    .fa-xmark{
+        margin-right: -15px;
+    }
+    .fa-bars{
+        font-size: 40px;
+    }
+    #logo{
+        margin-left: -15px;
+    }
+    .frontHeader{
+        font-size: 75px;
+    }
+    body{
+        background-image: linear-gradient(rgba(45, 42, 85, 0.8),rgba(36, 56, 78, 0.8)), url("images/background2.jpg");
+    }
+    .frontButton{
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .footer h2{
+        padding: 20px;
+        text-align: center;
+
+    }
 }
+
+@media (max-height: 743px){
+    .navigation_bar{
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    .sign-up-button{
+        margin: 20px 0;
+    }
+    
+    
+}
+
+
+    
 
 
